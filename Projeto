@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologias Futuristas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #0d0d0d;
+            color: white;
+            line-height: 1.6;
+        }
+        header {
+            background: #1a1a1a;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #00ffcc;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 2rem;
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #111;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tecnologias Futuristas</h1>
+        <nav>
+            <a href="#ia">Inteligência Artificial</a>
+            <a href="#vr">Realidade Virtual</a>
+            <a href="#espaco">Exploração Espacial</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="ia">
+            <h2>Inteligência Artificial</h2>
+            <p>A Inteligência Artificial (IA) é uma das forças mais transformadoras do século XXI. Ela já está presente em assistentes virtuais, sistemas de recomendação, diagnósticos médicos e até na criação de obras de arte. O avanço do aprendizado de máquina e das redes neurais profundas possibilita que máquinas aprendam e melhorem com o tempo, tornando processos mais rápidos e eficientes. Embora traga benefícios imensos, como otimização de recursos e aumento da produtividade, a IA também levanta questões éticas sobre privacidade, desemprego tecnológico e controle das decisões.</p>
+        </section>
+
+        <section id="vr">
+            <h2>Realidade Virtual</h2>
+            <p>A Realidade Virtual (VR) está mudando a forma como interagimos com o mundo digital. Por meio de óculos e dispositivos de imersão, é possível viver experiências que antes só existiam na imaginação. Desde treinamentos militares até simulações médicas, passando por jogos hiper-realistas e educação imersiva, a VR expande nossas possibilidades de aprendizado e entretenimento. No futuro, espera-se que essa tecnologia se integre ainda mais ao nosso dia a dia, tornando-se tão comum quanto os smartphones.</p>
+        </section>
+
+        <section id="espaco">
+            <h2>Exploração Espacial</h2>
+            <p>A exploração espacial vive uma nova era. Empresas privadas, como SpaceX e Blue Origin, estão desenvolvendo foguetes reutilizáveis e planejando viagens para Marte. Telescópios avançados estão revelando planetas habitáveis e novas formas de vida podem ser descobertas. Além disso, a mineração de asteroides surge como uma possibilidade para obter recursos raros. O interesse pelo espaço vai além da curiosidade científica: ele representa a sobrevivência da humanidade a longo prazo e a expansão de nossos horizontes para além da Terra.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Tecnologias Futuristas - Criado no VS Code</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            console.log("Site de Tecnologias Futuristas carregado!");
+        });
+    </script>
+</body>
+</html>
